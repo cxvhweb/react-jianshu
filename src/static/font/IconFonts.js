@@ -1,0 +1,36 @@
+import {createGlobalStyle} from 'styled-components';
+// 全局样式
+export const IconFont=createGlobalStyle`
+  @font-face {font-family: "iconfont";
+    src: url('./iconfont.eot?t=1591298746008'); /* IE9 */
+    src: url('./iconfont.eot?t=1591298746008#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAP8AAsAAAAACDwAAAOwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqDVIM1ATYCJAMUCwwABCAFhG0HTRtGB8geibGtg+0IEZU6XxYP/y7b35dkhjlZSlelVE/3KBRCokCYVVjwOIGR7fhfjdifb1PfB2qkU2dmFVdkYsgn/cQJcz9vJxWnp+6kfmq7NECAmfn//97pHyU+rz3LZW1aY1KfKsA4oMDGWLhAOoENkBLlhrELWuJ+AtWCcdBNSRUPkQpzWCAeiVOGyIxGacgPndBWzC0Qb9Do0lrqEYDX4PPxHxIiEiRNBnPs3Yo1yPvYj/X0ktASePAwEE1nAltExh5QiKdKyyM6iuyhVfV3jAug6iTp19j3Ke+XfawPhdCkB1JX6w+PLCmCaMHMHQYXKFr4NdZBZH6lIBK/liEKf+rFz3JIAypG8QJ8IvrczZKilSa6REb2cDDIgWjULXo2f/k1vHrFI15Azc3SUlsU02lLXtdLV2zpEtCpitE863JMnLRxILup9wT5omM9qMFeY9c9QUslaWlwfpZwah/09zvW30RIFmcL1nzxwK1RvCAd3DkGzZmgiuoGzbZo2/yrV8Lr15KwYf3BpebIvEQuzLSBbbdemjixJTaYT60+dWo1lbfYfCnvMtPWxlyeXLi9dVmmPtTpCeCaXvp8VNFz3DGkFNpGTq1AFSgkp5lpzQlat9NiUVh+jG+0SDpMdVTmZbydJlkP+/Ro7Tv81/CBMHLl4YP4eOdBxjZ2d7kKTU3DDx5graTXMEi/IqVh4aVXLsNpf8GOHXl89L2qiprS+6iuuLqsy70cIb/xzpBJqXt2PRyyZkhGI6olRq3rQoaBfIWRTKMIgTSAQShfo4PBS+lfdACAfEu9/NPf8d79fNT0Tln/Ih0MwE/IdR5WDJYwkPvgd6l0Fv1XUceaoklMbVOUakeoeBtH/poyqYmKAXRMejONbQYkptBxEYRkyDxknTW80Peg0XMGrc45VLtKF/dMMdGiRAE7VgII445CMuoDsnGP8UJvgcasb9AaDxqq+7qt2bMRhC00sWxhjVPmckT1eXVbb7FhfgN2znTLZloSMERsBomfi4+Jy8dLsRebU0wIznImWJbO6abPw5WAw7Db7eP8ps/AqhXTZFn+jNhYvepOMarPA6xrJkxmwTQcxVwcQuXjpXvNLWzh/Q0wp5ncZGYDpcotwkxBpH1OvBhxHfBSpbcT5VY6B83ilMBi0fEgncnHg1MCTZjbivhw/NW9DJjKEqNpQMgvQyxqpHdVxiyv9rzjFqjMs5ugEI0YFIbCoTz7iZfKlymFdNVlr1OTDeJ1md40U1ZkbzwA') format('woff2'),
+    url('./iconfont.woff?t=1591298746008') format('woff'),
+    url('./iconfont.ttf?t=1591298746008') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('./iconfont.svg?t=1591298746008#iconfont') format('svg'); /* iOS 4.1- */
+  }
+
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-spin:before {
+    content: "\e851";
+  }
+
+  .icon-Aa:before {
+    content: "\e636";
+  }
+
+  .icon-bi:before {
+    content: "\e62b";
+  }
+
+  .icon-fangdajing_huaban1:before {
+    content: "\e682";
+  }
+`
