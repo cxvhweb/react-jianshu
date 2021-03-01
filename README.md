@@ -1,11 +1,3 @@
-##项目地址
-<p><a href="http://39.100.247.246:8001/">react-jianshu：http://39.100.247.246:8001/</a></p>
-                            <p><a href="http://39.100.247.246:8002/">react-todolist：http://39.100.247.246:8002/</a></p>
-                            <p><a href="http://39.100.247.246:8003/">react-todolist-redux：http://39.100.247.246:8003/</a></p>
-                            <p><a href="http://39.100.247.246:8090/">vue-meituan：http://39.100.247.246:8090/</a></p>
-                            <p><a href="http://39.100.247.246:8801/">uni-app：http://39.100.247.246:8801/</a></p>
-                            <p><a href="http://39.100.247.246:8060/">nodejs-blog：http://39.100.247.246:8060/</a></p>
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
